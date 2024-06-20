@@ -9,13 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>woilah</title>
-
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>ElEsPehSATU</title>
 
     <!-- Custom fonts for this template-->
     <link href="{!! asset('theme/vendor/fontawesome-free/css/all.min.css') !!}" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="https://i.pinimg.com/474x/9b/b1/b9/9bb1b9aa5182b06836642a5f737fc5ea.jpg" type="image/x-icon">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -27,20 +24,18 @@
 
 <body id="page-top">
 
-
     <!-- Page Wrapper -->
     <div id="wrapper">
-    
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Sijakoding</div>
+                <div class="sidebar-brand-text mx-3">UKKLARAV</div>
             </a>
 
             <!-- Divider -->
@@ -61,22 +56,7 @@
                 Interface
             </div>
 
-            <!-- Nav Item - Pages Collapse Menu -->
-            <!-- <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <i class="fa fa-user-circle" aria-hidden="true"></i>
-        <span>Siswa</span>
-    </a>
-    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSidebar">
-        <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="#">Show All</a>
-            <a class="collapse-item" href="#">Create</a>
-        </div>
-    </div>
-</li> -->
-
-<li class="nav-item">
+            <li class="nav-item">
     <a class="nav-link collapsed" href="#" data-toggle="collapse"  aria-hidden="true" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
     <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
  <path d="M1.5 17.625a2.625 2.625 0 0 0 2.625 2.625h15.75a2.625 2.625 0 0 0 2.625-2.625v-7.219h-21v7.219Zm3.094-3.563A1.406 1.406 0 0 1 6 12.656h2.25a1.406 1.406 0 0 1 1.406 1.406V15a1.406 1.406 0 0 1-1.406 1.406H6A1.406 1.406 0 0 1 4.594 15v-.938Z"></path>
@@ -145,8 +125,6 @@
                 </div>
             </li>
 
-       
-
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
@@ -154,6 +132,7 @@
             <div class="text-center d-none d-md-inline">
                 <button class="rounded-circle border-0" id="sidebarToggle"></button>
             </div>
+
         </ul>
         <!-- End of Sidebar -->
 
@@ -171,6 +150,19 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
+                    <!-- Topbar Search -->
+                    <!-- <form
+                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
+                                aria-label="Search" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button">
+                                    <i class="fas fa-search fa-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form> -->
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -322,9 +314,9 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Nathan</span>
                                 <img class="img-profile rounded-circle"
-                                    src="https://i.pinimg.com/474x/c8/66/41/c86641177e76205a2942660787261891.jpg">
+                                    src="https://static.voice123.com/pics/users/3457922/l_5B4mf.jpg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -342,7 +334,7 @@
                                     Activity Log
                                 </a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="logout" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -360,13 +352,12 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                        <!-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
+                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a> -->
                     </div>
 
                     
                     <div class="container">
-                        
                         @yield('content')
                     </div>
                   
@@ -381,8 +372,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span id="copyrihgt">Copyright &copy; Syaiful Rahmatdani 2024</span>
-                        <!-- <div ></div> -->
+                        <span>Copyright &copy; UKK Laravel 11 2024</span>
                     </div>
                 </div>
             </footer>
@@ -403,7 +393,7 @@
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content"> 
+            <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
@@ -425,13 +415,9 @@
 
     <!-- Core plugin JavaScript-->
     <script src="{!! asset('theme/vendor/jquery-easing/jquery.easing.min.js') !!}"></script>
-    <!-- Core plugin JavaScript-->
-    <script>                                                                                                                                                                                                                            document.getElementById("copyrihgt").innerHTML = 'C<!--invisible-->opyri<!--invisible-->ght &copy; S<!--invisible-->yai<!--invisible-->ful R<!--invisible-->ahmatdani 2024'; </script>
 
     <!-- Custom scripts for all pages-->
     <script src="{!! asset('theme/js/sb-admin-2.min.js') !!}"></script>
-    <script src="{!! asset('theme/js/sb-admin-2-.js') !!}"></script>
-    <script src="{!! asset('theme/js/sb-admin-3.js') !!}"></script>
 
     <!-- Page level plugins -->
     <script src="{!! asset('theme/vendor/chart.js/Chart.min.js') !!}"></script>
